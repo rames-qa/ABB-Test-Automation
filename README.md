@@ -1,36 +1,106 @@
-# ABB Test Automation Assignment
+# ABB Senior Software Engineer - Test Automation Assessment
 
-## Technology Stack
+## Project Overview
 
+This project automates the ThingsBoard IoT monitoring dashboard validation.
+
+Target Application:
+https://demo.thingsboard.io
+
+Automation Framework:
 - Python
 - Pytest
 - Playwright
-- Requests API
+- Requests API Automation
 
-## Features
+
+## Automation Coverage
 
 ### UI Automation
+
+File:
+test_ui_automation.py
+
+Validations:
 - Login validation
 - Dashboard navigation
-- Widget visibility validation
+- Widget visibility
+- Telemetry labels validation
+- Real-time data verification
 - Screenshot capture
 
+
 ### API Automation
+
+Files:
+- test_api_telemetry.py
+- test_api_automation.py
+
+
+Validations:
 - JWT authentication
-- Device telemetry validation
+- Device API validation
+- Telemetry API validation
 - Response schema validation
+- Data type validation
 - Retry mechanism
 
-## Execution
+
+## Test Execution
 
 Install dependencies:
 
 pip install -r requirements.txt
 
-Run tests:
+
+Run complete suite:
 
 pytest -v
 
-Generate report:
 
-pytest --html=reports/report.html
+Generate HTML report:
+
+pytest -v --html=reports/report.html --self-contained-html
+
+
+## Test Execution Result
+
+Total Tests: 3
+
+Passed: 3
+
+Failed: 0
+
+
+Execution Time:
+29.16 seconds
+
+
+## Framework Design
+
+The framework follows:
+
+- Pytest Fixtures
+- Session based API authentication
+- Logging
+- Retry mechanism
+- Modular test design
+- HTML reporting
+
+
+## Evidence
+
+Execution report:
+
+reports/report.html
+
+
+Screenshots:
+
+screenshots/
+
+
+## Author
+
+Ramesh Kumar K
+Software Automation & Validation Engineer
