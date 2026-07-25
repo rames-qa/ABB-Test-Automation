@@ -1,14 +1,36 @@
-Real-Time Operational Dashboard Monitoring Test Suite
+# ABB Test Automation Assignment
 
-Automation testing framework for ThingsBoard Live Demo Dashboard.
+## Technology Stack
 
-Python 3.9+
-* Playwright (UI Automation)
-* Requests  (API Automation)
-* Pytest (Test Runner)
+- Python
+- Pytest
+- Playwright
+- Requests API
 
+## Features
 
-Setup & Installation
+### UI Automation
+- Login validation
+- Dashboard navigation
+- Widget visibility validation
+- Screenshot capture
 
-1. Clone/Extract repository:
-   ```bash
+### API Automation
+- JWT authentication
+- Device telemetry validation
+- Response schema validation
+- Retry mechanism
+
+## Execution
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run tests:
+
+pytest -v
+
+Generate report:
+
+pytest --html=reports/report.html
