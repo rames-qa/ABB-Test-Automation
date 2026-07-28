@@ -1,4 +1,4 @@
-# ABB Senior Software Engineer - Test Automation Assessment
+ # ABB Senior Software Engineer - Test Automation Assessment
 
 ## Project Overview
 
@@ -102,5 +102,5 @@ screenshots/
 
 ## Author
 
-Ramesh Kumar K
-Software Automation & Validation Engineer
+#Ramesh Kumar K
+Software Automation  Testing & Verification and Validation Engineer
